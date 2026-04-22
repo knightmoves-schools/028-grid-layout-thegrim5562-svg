@@ -5,14 +5,14 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .first-item { grid-area: header; }
-        .second-item { grid-area: leftnav; }
+        .second-item { grid-area: leftNav; }
         .third-item { grid-area: main; }
 
         .grid-container {
             display: grid;
             grid-template-areas:
-                'leftnav header header'
-                'leftnav main main'
+                'leftNav header header'
+                'leftNav main main'
             gap: 10px;
         }  
     </style>
@@ -21,7 +21,7 @@
 <body>
     <div class="grid-container">
         <div class="first-item">header</div>
-        <div class="second-item">leftnav</div>
+        <div class="second-item">leftNav</div>
         <div class="third-item">main</div>
     </div>
 </body>
